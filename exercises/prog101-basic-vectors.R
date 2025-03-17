@@ -16,4 +16,4 @@ LETTERS[1:10]
 # Use non-contiguous indexing to pull out the 5th, 10th, and 15th letters.
 LETTERS[c(5,10,15)]
 # Convert the last ten letters of the alphabet to lower case.
-letters[16:26]
+letters[16:length(letters)]

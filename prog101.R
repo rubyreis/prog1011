@@ -86,7 +86,7 @@ extreme_time_hot <- kefj_site == hottest_site &
 
 extreme_temp_hot <- kefj_temperature[extreme_time_hot] <= -4
 
-extreme_temp_exp_hot <- (extreme_temp_hot == "TRUE") / 2
+extreme_temp_exp_hot <- (extreme_temp_hot == TRUE) / 2
 extreme_temp_exp_hot
 sum(extreme_temp_exp_hot)
 
